@@ -1,0 +1,42 @@
+{
+  "name": "@onshorehq/react-native",
+  "version": "0.1.0",
+  "description": "Secure collect and reveal for React Native. Holds no credentials.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "react": "18.3.1",
+    "react-test-renderer": "18.3.1",
+    "typescript": "5.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://docs.onshorevault.com/developers/sdks/react-native/",
+  "keywords": [
+    "onshore",
+    "data-residency",
+    "tokenization",
+    "vault",
+    "pii"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onshore-HQ/onshore-react-native.git"
+  }
+}
