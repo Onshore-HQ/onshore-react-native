@@ -11,3 +11,7 @@ import { createClient, CollectForm } from "@onshorehq/react-native";
 ```
 
 Full reference: https://docs.onshorevault.com/developers/sdks/react-native/
+
+## Licence
+
+Apache-2.0. Copyright 2026 Flowsplus Services. See [LICENSE](LICENSE) and [NOTICE](NOTICE). Contributions need the [Contributor Licence Agreement](CLA.md).

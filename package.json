@@ -1,13 +1,15 @@
 {
   "name": "@onshorehq/react-native",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Secure collect and reveal for React Native. Holds no credentials.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE",
+    "NOTICE"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -38,5 +40,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Onshore-HQ/onshore-react-native.git"
-  }
+  },
+  "license": "Apache-2.0"
 }
